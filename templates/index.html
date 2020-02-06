@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Warehouse &mdash; Website Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='fonts/icomoon/style.css')}}">
+
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/owl.theme.default.min.css')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/jquery.fancybox.min.css')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap-datepicker.css')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='fonts/flaticon/font/flaticon.css')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/aos.css')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">Imperia</a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Trang chủ</a></li>
+                <li><a href="#properties-section" class="nav-link">Mặt Bằng</a></li>
+                <li><a href="#agents-section" class="nav-link">Căn Hộ Mẫu</a></li>
+                <li><a href="#about-section" class="nav-link">Chính Sách Bán Hàng</a></li>
+                <li><a href="#news-section" class="nav-link">Vị Trí</a></li>
+                <li><a href="#contact-section" class="nav-link">Liên Hệ</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+
+    </header>
+
+
+    <div class="site-block-wrap">
+    <div class="owl-carousel with-dots">
+      <div class="site-blocks-cover overlay overlay-2" style="background-image: url({{url_for('static',filename='imperia/anh1.jpg')}});" data-aos="fade" id="home-section">
+
+
+        <!-- <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 mt-lg-5 text-center">
+              <h1 class="text-shadow">Imperia Sky Garden <br> Khu Vườn Chân Mây</h1>
+              <p class="mb-5 text-shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident vitae, aut inventore repellendus. Iusto, assumenda! </p>
+              <p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p>
+
+            </div>
+          </div>
+        </div> -->
+
+
+      </div>
+
+      <!-- <div class="site-blocks-cover overlay overlay-2" style="background-image: url(imperia/anh5.jpg);" data-aos="fade" id="home-section">
+
+
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 mt-lg-5 text-center">
+              <h1 class="text-shadow">Imperia Sky Garden<br> Khu Vườn Chân Mây</h1>
+              <p class="mb-5 text-shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quam doloribus reprehenderit dolore adipisci rerum?</p>
+              <p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>  -->
+    </div>
+
+  </div>
+  <div class="div-tu-van" style="padding: 25px 10px; line-height: 22px; margin: 10px 0px; background: none 0% 0% repeat scroll #f3f9ee; border: 1px dashed #81b855; text-align: center;">
+    <p>
+      <span style="font-size: 20px;"><em><strong><span style="color: #ff0000;">CHÍNH SÁCH ƯU ĐÃI HẤP DẪN NHẤT THÁNG 12/2019</span></strong></em>
+    </span>
+  </p>
+    <p>
+      <span style="font-size: 14pt; color: #993300;">Website thông tin chính thức từ M.I.K Group</span>
+    </p>
+    <p>DÀNH CHO KHÁCH HÀNG MUA CĂN HỘ THUỘC SKY VIEW (SKY A), SKY B TẠI<br /> DỰ ÁN IMPERIA SKY GARDEN – 423 MINH KHAI, QUẬN HAI BÀ TRƯNG, HÀ NỘI<br /> 1. QUY ĐỊNH ÁP DỤNG<br /> 1.1. Thời gian áp dụng : từ ngày 01/11/2019 đến hết ngày 31/11/2019<br /> 1.2. Đối tượng áp dụng : Khách hàng đặt cọc đủ 100 triệu và ký Thỏa Thuận Đặt Cọc mua mới căn<br /> hộ tại Sky View (SkyA), Sky B dự án Imperia Sky Garden trong thời gian<br /> áp dụng quy định tại Mục 1.1 trên và ký Hợp Đồng Mua Bán đúng hạn.</p>
+    <p>2. QUÀ TẶNG<br /> 2.1. Áp dụng đối với Sky View (Sky A)<br /> &#8211; Gói hoàn thiện Hệ Thống bếp cao cấp<br /> &#8211; Hệ thống Smart Home<br /> &#8211; Thẻ khách hàng DIAMOND của Vpbank<br /> &#8211; Bộ Vật Phẩm Phong Thủy 02 Lượng Vàng trị giá 80.000.000 VND (tám mươi triệu đồng)<br /> 2.2. Áp dụng đối với Sky B<br /> &#8211; Bộ Vật Phẩm Phong Thủy 02 Lượng Vàng trị giá 80.000.000 VND (tám mươi triệu đồng)<br /> *Hệ thống bếp và Smart Home sẽ được hoàn thiện và lắp đặt vào căn hộ cho khách hàng, thẻ DIAMOND sẽ<br /> được phát hành bởi ngân hàng Vpbank, Quà tặng khác được trừ vào giá bán chưa bao gồm thuế Giá Trị Gia<br /> Tăng.</p>
+    <p>DÀNH CHO KHÁCH HÀNG MUA CĂN HỘ THUỘC SKY C, D TẠI DỰ ÁN<br /> IMPERIA SKY GARDEN – 423 MINH KHAI, QUẬN HAI BÀ TRƯNG, HÀ NỘI<br /> 1. QUY ĐỊNH ÁP DỤNG<br /> 1.1. Thời gian áp dụng : từ ngày 01/08/2019 đến hết ngày 31/08/2019.<br /> 1.2. Đối tượng áp dụng : Khách hàng đặt cọc đủ 100 triệu và ký Thỏa Thuận Đặt Cọc mua mới căn<br /> hộ tại Sky C, D dự án Imperia Sky Garden trong thời gian áp dụng quy định<br /> tại Mục 1.1 trên và ký Hợp Đồng Mua Bán đúng hạn.</p>
+    <p>2. QUÀ TẶNG<br />  Tặng Bộ nội thất full đồ rời trị giá 80.000.000 VND (tám mươi triệu đồng) cho tất cả các khách<br /> hàng khi mua căn hộ 2 phòng ngủ (căn 03, 05, 06, 07, 08, 10, 11, 12A, 14, 17)<br />  Tặng Bộ nội thất full đồ rời trị giá 120.000.000 VND (một trăm hai mươi triệu đồng) cho tất cả<br /> các khách hàng khi mua căn hộ 3 phòng ngủ (căn 01, 02, 04, 09, 12, 15, 16, 18)<br /> *Quà tặng sẽ được trừ vào Giá bán căn hộ (chưa bao gồm VAT), các khoản Thuế TNCN, phí, lệ phí phát<br /> sinh (nếu có) sẽ do khách hàng chịu trách nhiệm chi trả.</p><h3><a href="tel:0933922666"><span style="color: #ff0000;">HOTLINE: <a href="tel:0933922666">0933.922.666</a>
+    </span>
+  </a>
+</h3>
+</div>
+</div>
+  <div class='container' >
+    <div class='template-page content  av-content-full alpha units'>
+      <div class='post-entry post-entry-type-page post-entry-23'>
+        <div class='entry-content-wrapper clearfix'>
+          <div class="flex_column av_one_full  av-animated-generic bottom-to-top  flex_column_div av-zero-column-padding first  avia-builder-el-3  avia-builder-el-no-sibling  " style='border-radius:0px; '>
+            <section class="av_textblock_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+              <div class='avia_textblock '   itemprop="text" >
+                <h2 style="text-align: center;">
+                  <span style="color: #ecc855;">TẢI TRỌN BỘ BẢNG GIÁ VÀ CHÍNH SÁCH ƯU ĐÃI</span>
+                </h2>
+                <p style="text-align: center;">
+                </div>
+              </section>
+              <form action="http://imperiaskygardensminhkhai.vn/" method="post"  class="avia_ajax_form av-form-labels-hidden   avia-builder-el-5  el_after_av_textblock  avia-builder-el-last  " data-avia-form-id="1" data-avia-redirect=''>
+                <fieldset>
+                  <p class=' first_form  form_element form_element_fourth' id='element_avia_1_1'>
+                    <input name="avia_1_1" class="text_input is_empty" type="text" id="avia_1_1" value=""  placeholder='Số điện thoại*'/>
+                  </p>
+                  <p class=' form_element form_element_fourth av-last-visible-form-element' id='element_avia_2_1'>
+                    <input name="avia_2_1" class="text_input is_email" type="text" id="avia_2_1" value=""  placeholder='E-Mail*'/>
+                  </p>
+                  <p class="hidden">
+                    <input type="text" name="avia_3_1" class="hidden " id="avia_3_1" value="" /></p>
+                    <p class="form_element form_element_half modified_width">
+                      <input type="hidden" value="1" name="avia_generated_form1" />
+                      <input type="submit" value="TẢI NGAY" class="button"  data-sending-label="Sending"/>
+                    </p>
+                  </fieldset>
+                </form>
+                <div id="ajaxresponse_1" class="ajaxresponse ajaxresponse_1 hidden">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-block-wrap">
+        <div class="owl-carousel with-dots">
+          <div data-rel='slideshow-1' class='avia-slide-wrap'  ><img src='http://imperiaskygardensminhkhai.vn/wp-content/uploads/2019/01/tin-ich.jpg'  title='tin-ich' alt=''  itemprop="contentURL"  /></div>
+          <div data-rel='slideshow-2' class='avia-slide-wrap'  ><img src='http://imperiaskygardensminhkhai.vn/wp-content/uploads/2019/01/89-tiện-ích-imperia-sky-garden.png'  title='89-tiện-ích-imperia-sky-garden' alt=''  itemprop="contentURL"  /></div>
+        </div>
+      </div>
+      <div class='container' >
+        <div class='template-page content  av-content-full alpha units'>
+          <div class='post-entry post-entry-type-page post-entry-23'>
+            <div class='entry-content-wrapper clearfix'>
+              <div class="flex_column av_one_full  av-animated-generic bottom-to-top  flex_column_div av-zero-column-padding first  avia-builder-el-28  el_before_av_tab_container  avia-builder-el-first  " style='border-radius:0px; '>
+                <section class="av_textblock_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                  <div class='avia_textblock '   itemprop="text" >
+                    <h2 style="text-align: center;">
+                      <span style="color: #9f802e; font-size: 24px;">MẶT BẰNG 3D CHI TIẾT</span>
+                    </h2>
+                    <p style="text-align: center;">Imperia Sky Garden đáp ứng mọi nhu cầu về diện tích căn hộ, với thiết kế đa dạng từ 57,91m2 đến 105,21m2. Dưới bàn tay thiết kế tài hoa của các kiến trúc sư đến từ Công ty Baumschlager Eberle Thụy Sĩ, mỗi căn hộ là một không gian sống tuyệt vời, tràn ngập ánh sáng tự nhiên</p>
+                  </div>
+                </section>
+                <div style='height:30px' class='hr hr-invisible  avia-builder-el-30  el_after_av_textblock  avia-builder-el-last '>
+                  <span class='hr-inner ' >
+                    <span class='hr-inner-style'>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="tabcontainer  top_tab   avia-builder-el-31  el_after_av_one_full  el_before_av_tab_container ">
+                <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                  <div data-fake-id="#tab-id-1" class="tab active_tab"  itemprop="headline" >MẶT BẰNG TỔNG THỂ</div>
+                  <div id="tab-id-1-container" class="tab_content active_tab_content">
+                    <div class="tab_inner_content invers-color"  itemprop="text" >
+                      <p>
+                        <img class="aligncenter wp-image-231 size-full" src="http://imperia-skygardens.com.vn/wp-content/uploads/2018/11/mbtt-isg.jpg" alt="" width="1920" height="1555" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg.jpg 1920w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-300x243.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-768x622.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-1030x834.jpg 1030w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-1500x1215.jpg 1500w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-495x400.jpg 495w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-845x684.jpg 845w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-705x571.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/mbtt-isg-450x364.jpg 450w" sizes="(max-width: 1920px) 100vw, 1920px" />
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                  <div data-fake-id="#tab-id-2" class="tab "  itemprop="headline" >SKY A</div>
+                  <div id="tab-id-2-container" class="tab_content ">
+                    <div class="tab_inner_content invers-color"  itemprop="text" >
+                      <p>
+                        <img class="aligncenter wp-image-232 size-full" src="http://imperia-skygardens.com.vn/wp-content/uploads/2018/11/sky-a.jpg" alt="" width="1500" height="1144" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-a.jpg 1500w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-a-300x229.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-a-768x586.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-a-1030x786.jpg 1030w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-a-705x538.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-a-450x343.jpg 450w" sizes="(max-width: 1500px) 100vw, 1500px" /></p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-3" class="tab "  itemprop="headline" >SKY B</div>
+                    <div id="tab-id-3-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="aligncenter wp-image-233 size-full" src="http://imperia-skygardens.com.vn/wp-content/uploads/2018/11/sky-b.jpg" alt="" width="1500" height="1144" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-b.jpg 1500w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-b-300x229.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-b-768x586.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-b-1030x786.jpg 1030w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-b-705x538.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-b-450x343.jpg 450w" sizes="(max-width: 1500px) 100vw, 1500px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-4" class="tab "  itemprop="headline" >SKY C
+                    </div>
+                    <div id="tab-id-4-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-234 aligncenter" src="http://imperia-skygardens.com.vn/wp-content/uploads/2018/11/sky-C.jpg" alt="" width="1500" height="1144" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-C.jpg 1500w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-C-300x229.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-C-768x586.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-C-1030x786.jpg 1030w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-C-705x538.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/sky-C-450x343.jpg 450w" sizes="(max-width: 1500px) 100vw, 1500px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-5" class="tab "  itemprop="headline" >SKY D
+                    </div>
+                    <div id="tab-id-5-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-235 aligncenter" src="http://imperia-skygardens.com.vn/wp-content/uploads/2018/11/Sky-D.jpg" alt="" width="1500" height="1144" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/Sky-D.jpg 1500w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/Sky-D-300x229.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/Sky-D-768x586.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/Sky-D-1030x786.jpg 1030w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/Sky-D-705x538.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/Sky-D-450x343.jpg 450w" sizes="(max-width: 1500px) 100vw, 1500px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="tabcontainer  sidebar_tab sidebar_tab_left border_tabs  avia-builder-el-32  el_after_av_tab_container  avia-builder-el-last ">
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-6" class="tab active_tab"  itemprop="headline" >CĂN A01,B01,C01,D01</div>
+                    <div id="tab-id-6-container" class="tab_content active_tab_content">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="aligncenter wp-image-237 size-full" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a01.png" alt="" width="773" height="447" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a01.png 773w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a01-300x173.png 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a01-768x444.png 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a01-705x408.png 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a01-450x260.png 450w" sizes="(max-width: 773px) 100vw, 773px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div data-fake-id="#tab-id-7" class="tab "  itemprop="headline" >CĂN A02,B02,C02,D02</div>
+                    <div id="tab-id-7-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-238 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a02.jpg" alt="" width="768" height="369" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a02.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a02-300x144.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a02-705x339.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a02-450x216.jpg 450w" sizes="(max-width: 768px) 100vw, 768px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-8" class="tab "  itemprop="headline" >CĂN A03,B03,C03,D03</div>
+                    <div id="tab-id-8-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-239 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a03.png" alt="" width="773" height="461" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a03.png 773w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a03-300x179.png 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a03-768x458.png 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a03-705x420.png 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a03-450x268.png 450w" sizes="(max-width: 773px) 100vw, 773px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-9" class="tab "  itemprop="headline" >CĂN A04,B04,C04,D04</div>
+                    <div id="tab-id-9-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-240 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a04.png" alt="" width="770" height="410" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a04.png 770w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a04-300x160.png 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a04-768x409.png 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a04-705x375.png 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a04-450x240.png 450w" sizes="(max-width: 770px) 100vw, 770px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-10" class="tab "  itemprop="headline" >CĂN A05,B05,C05,D05</div>
+                    <div id="tab-id-10-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-241 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a05.jpg" alt="" width="771" height="424" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a05.jpg 771w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a05-300x165.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a05-768x422.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a05-705x388.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a05-450x247.jpg 450w" sizes="(max-width: 771px) 100vw, 771px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-11" class="tab "  itemprop="headline" >CĂN A,B,C,D (06-07)</div>
+                    <div id="tab-id-11-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-242 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a06.jpg" alt="" width="768" height="388" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a06.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a06-300x152.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a06-705x356.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a06-450x227.jpg 450w" sizes="(max-width: 768px) 100vw, 768px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-12" class="tab "  itemprop="headline" >CĂN A08,B08,C08,D08</div>
+                    <div id="tab-id-12-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-243 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a08.jpg" alt="" width="767" height="376" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a08.jpg 767w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a08-300x147.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a08-705x346.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a08-450x221.jpg 450w" sizes="(max-width: 767px) 100vw, 767px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-13" class="tab "  itemprop="headline" >CĂN A,B,C,D (9-15-16)</div>
+                    <div id="tab-id-13-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-244 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a09.jpg" alt="" width="767" height="432" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a09.jpg 767w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a09-300x169.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a09-705x397.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a09-450x253.jpg 450w" sizes="(max-width: 767px) 100vw, 767px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-14" class="tab "  itemprop="headline" >CĂN A,B,C,D (10-14-17)</div><div id="tab-id-14-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-245 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a10.jpg" alt="" width="771" height="407" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a10.jpg 771w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a10-300x158.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a10-768x405.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a10-710x375.jpg 710w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a10-705x372.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a10-450x238.jpg 450w" sizes="(max-width: 771px) 100vw, 771px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div data-fake-id="#tab-id-15" class="tab "  itemprop="headline" >CĂN A11,B11,C11,D11</div>
+                    <div id="tab-id-15-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-246 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a11.jpg" alt="" width="771" height="440" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a11.jpg 771w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a11-300x171.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a11-768x438.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a11-705x402.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a11-450x257.jpg 450w" sizes="(max-width: 771px) 100vw, 771px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-16" class="tab "  itemprop="headline" >CĂN A12,B12,C12,D12</div>
+                    <div id="tab-id-16-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-247 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a12.jpg" alt="" width="775" height="383" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12.jpg 775w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12-300x148.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12-768x380.jpg 768w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12-705x348.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12-450x222.jpg 450w" sizes="(max-width: 775px) 100vw, 775px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="av_tab_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                    <div data-fake-id="#tab-id-17" class="tab "  itemprop="headline" >CĂN A12A,B12A,C12A,D12A</div>
+                    <div id="tab-id-17-container" class="tab_content ">
+                      <div class="tab_inner_content invers-color"  itemprop="text" >
+                        <p>
+                          <img class="size-full wp-image-248 aligncenter" src="http://imperiaskygardennminhkhai.com/wp-content/uploads/2018/11/a12a.jpg" alt="" width="761" height="377" srcset="http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12a.jpg 761w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12a-300x149.jpg 300w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12a-705x349.jpg 705w, http://imperiaskygardensminhkhai.vn/wp-content/uploads/2018/11/a12a-450x223.jpg 450w" sizes="(max-width: 761px) 100vw, 761px" />
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='av_section_6' class='avia-section main_color avia-section-default avia-no-shadow avia-bg-style-scroll  avia-builder-el-33  el_after_av_section  el_before_av_one_third  container_wrap fullsize' style = 'background-repeat: no-repeat; background-image: url(http://imperiaskygardensminhkhai.vn/wp-content/uploads/2019/01/mod_41.jpg); background-attachment: scroll; background-position: center left; ' data-section-bg-repeat='no-repeat' >
+        <div class='container' >
+          <div class='template-page content  av-content-full alpha units'>
+            <div class='post-entry post-entry-type-page post-entry-23'>
+              <div class='entry-content-wrapper clearfix'>
+                <div class="flex_column av_one_half  flex_column_div first  avia-builder-el-34  avia-builder-el-no-sibling  " style='padding:100px 0px 100px 0px ; border-radius:0px; '>
+                  <section class="av_textblock_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+
+<!--
+  <div class="site-section" id="properties-section">
+      <div class="container">
+        <div class="row large-gutters">
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
+            <div class="ftco-media-1">
+              <div class="ftco-media-1-inner">
+                <a href="property-single.html" class="d-inline-block mb-4"><img src="imperia/anh1.jpg" alt="FImageo" class="img-fluid"></a>
+                <div class="ftco-media-details">
+                  <h3>HD17 19 Utica Ave.</h3>
+                  <p>New York - USA</p>
+                  <strong>$20,000,000</strong>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
+              <div class="ftco-media-1">
+                  <div class="ftco-media-1-inner">
+                    <a href="property-single.html" class="d-inline-block mb-4"><img src="{{url_for('static',filename='imperia/anh2.jpg')}}" alt="Image" class="img-fluid"></a>
+                    <div class="ftco-media-details">
+                      <h3>HD17 19 Utica Ave.</h3>
+                      <p>New York - USA</p>
+                      <strong>$20,000,000</strong>
+                    </div>
+
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
+              <div class="ftco-media-1">
+                  <div class="ftco-media-1-inner">
+                    <a href="property-single.html" class="d-inline-block mb-4"><img src="imperia/anh6.jpg" alt="Image" class="img-fluid"></a>
+                    <div class="ftco-media-details">
+                      <h3>HD17 19 Utica Ave.</h3>
+                      <p>New York - USA</p>
+                      <strong>$20,000,000</strong>
+                    </div>
+
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
+              <div class="ftco-media-1">
+                <div class="ftco-media-1-inner">
+                  <a href="property-single.html" class="d-inline-block mb-4"><img src="imperia/anh7.jpg" alt="Image" class="img-fluid"></a>
+                  <div class="ftco-media-details">
+                    <h3>HD17 19 Utica Ave.</h3>
+                    <p>New York - USA</p>
+                    <strong>$20,000,000</strong>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
+                <div class="ftco-media-1">
+                    <div class="ftco-media-1-inner">
+                      <a href="property-single.html" class="d-inline-block mb-4"><img src="imperia/anh7.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="ftco-media-details">
+                        <h3>HD17 19 Utica Ave.</h3>
+                        <p>New York - USA</p>
+                        <strong>$20,000,000</strong>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
+                <div class="ftco-media-1">
+                    <div class="ftco-media-1-inner">
+                      <a href="property-single.html" class="d-inline-block mb-4"><img src="imperia/anh7.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="ftco-media-details">
+                        <h3>HD17 19 Utica Ave.</h3>
+                        <p>New York - USA</p>
+                        <strong>$20,000,000</strong>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+      </div>
+    </div> -->
+
+
+
+    <section class="site-section" id="agents-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-7 text-left">
+            <h2 class="section-title mb-3">Real Estate Agents</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+          </div>
+        </div>
+        <div class="row">
+
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 bg-primary">
+                <h3 class="mb-2">Allison Holmes</h3>
+                <span class="position">Real Estate Agent</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 bg-primary">
+                <h3 class="mb-2">Dave Simpson</h3>
+                <span class="position">Real Estate Agent</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 bg-primary">
+                <h3 class="mb-2">Ben Thompson</h3>
+                <span class="position">Real Estate Agent</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-primary site-section how-it-works" id="howitworks-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3 text-black">How It Works</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="pr-5 first-step">
+              <span class="text-black">01.</span>
+              <span class="custom-icon flaticon-house text-black"></span>
+              <h3 class="text-black">Find Property.</h3>
+              <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="pr-5 second-step">
+              <span class="text-black">02.</span>
+              <span class="custom-icon flaticon-coin text-black"></span>
+              <h3 class="text-dark">Buy Property.</h3>
+              <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="text-black">03.</span>
+              <span class="custom-icon flaticon-home text-black"></span>
+              <h3 class="text-dark">Outstanding Houses.</h3>
+              <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="site-section" id="about-section">
+      <div class="container">
+
+        <div class="row large-gutters">
+          <div class="col-lg-6 mb-5">
+
+              <div class="owl-carousel slide-one-item with-dots">
+                  <div><img src="{{url_for('static',filename='images/img_1.jpg')}}" alt="Image" class="img-fluid"></div>
+                  <div><img src="{{url_for('static',filename='images/img_2.jpg')}}" alt="Image" class="img-fluid"></div>
+                  <div><img src="{{url_for('static',filename='images/img_3.jpg')}}" alt="Image" class="img-fluid"></div>
+                </div>
+
+          </div>
+          <div class="col-lg-6 ml-auto">
+
+            <h2 class="section-title mb-3">Warehouse Real Estate Template</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit  Quo suscipit omnis iste velit maxime.</p>
+
+                <ul class="list-unstyled ul-check success">
+                  <li>Placeat maxime animi minus</li>
+                  <li>Dolore qui placeat maxime</li>
+                  <li>Consectetur adipisicing</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Placeat molestias animi</li>
+                </ul>
+
+                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="site-section bg-light" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Services</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-house"></span></div>
+              <div>
+                <h3>Find Property</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-coin"></span></div>
+              <div>
+                <h3>Buy Property</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-home"></span></div>
+              <div>
+                <h3>Beautiful Home</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-flat"></span></div>
+              <div>
+                <h3>Buildings &amp; Lands</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-location"></span></div>
+              <div>
+                <h3>Property Locator</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-mobile-phone"></span></div>
+              <div>
+                <h3>Mobile Apps</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section testimonial-wrap" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimonials<h2>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="ftco-testimonial-1">
+                  <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                    <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
+                    <div>
+                      <h3>Allison Holmes</h3>
+                      <span>Customer</span>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                  <div class="ftco-testimonial-1">
+                      <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                        <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+                        <div>
+                          <h3>James Phelps</h3>
+                          <span>Customer</span>
+                        </div>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-md-6 mb-4">
+                  <div class="ftco-testimonial-1">
+                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                      <img src="images/person_3.jpg" alt="Image" class="img-fluid mr-3">
+                      <div>
+                        <h3>Nestor Helsin</h3>
+                        <span>Customer</span>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="ftco-testimonial-1">
+                        <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                          <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
+                          <div>
+                            <h3>Allison Holmes</h3>
+                            <span>Customer</span>
+                          </div>
+                        </div>
+                        <div>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
+                        </div>
+                      </div>
+                </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="site-section" id="news-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">News &amp; Events</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <a href="single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <h2 class="font-size-regular"><a href="single.html" class="text-dark">Popular Real Estate Properties for 2019</a></h2>
+              <div class="meta mb-4">Allison Holmes <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <a href="single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <h2 class="font-size-regular"><a href="single.html" class="text-dark">Popular Real Estate Properties for 2019</a></h2>
+              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <a href="single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              <h2 class="font-size-regular"><a href="single.html" class="text-dark">Popular Real Estate Properties for 2019</a></h2>
+              <div class="meta mb-4">Allison Holmes <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="site-section bg-light bg-image" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Contct Us</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+
+
+
+            <form action="#" class="p-5 bg-white">
+
+              <h2 class="h4 text-black mb-5">Get In Touch</h2>
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">First Name</label>
+                  <input type="text" id="fname" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Last Name</label>
+                  <input type="text" id="lname" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label>
+                  <input type="email" id="email" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">Subject</label>
+                  <input type="subject" id="subject" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+          <div class="col-md-5">
+
+            <div class="p-4 mb-3 bg-white">
+              <p class="mb-0 font-weight-bold">Address</p>
+              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+
+              <p class="mb-0 font-weight-bold">Phone</p>
+              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+
+              <p class="mb-0 font-weight-bold">Email Address</p>
+              <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-4">
+              <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
+                </div>
+              </div>
+            </form>
+            </div>
+
+            <div class="">
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p class="copyright">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <a href="#top" class="gototop"><span class="icon-angle-double-up"></span></a>
+
+  <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/jquery-ui.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/popper.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.countdown.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap-datepicker.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.easing.1.3.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/aos.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.fancybox.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.sticky.js')}}"></script>
+
+
+  <script src="{{ url_for('static', filename= 'js/main.js')}}"></script>
+
+  </body>
+</html>
